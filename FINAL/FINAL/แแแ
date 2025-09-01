@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <title>รุ้งกินน้ำ</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="relative min-h-screen font-sans text-gray-800">
+    <!-- พื้นหลัง -->
+    <div class="absolute inset-0">
+      <img src="images (2).jpg" alt="background rainbow" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-black/30"></div> <!-- เพิ่ม overlay -->
+    </div>
+
+    <!-- เนื้อหา -->
+    <div class="relative z-10">
+      <!-- Navigation Bar -->
+      <nav class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-8 py-4 flex justify-between items-center shadow-lg">
+        <h1 class="text-2xl font-extrabold tracking-wide drop-shadow-md">🌈 รุ้งกินน้ำ</h1>
+        <ul class="flex gap-6 text-lg">
+          <li><a href="index.html" class="hover:text-yellow-300 transition">หน้าแรก</a></li>
+          <li><a href="page1.html" class="hover:text-yellow-300 transition">การเกิดรุ้งกินน้ำ</a></li>
+          <li><a href="page2.html" class="hover:text-yellow-300 transition">ประเภทของรุ้งกินน้ำ</a></li>
+          <li><a href="page3.html" class="hover:text-yellow-300 transition">สีของรุ้งกินน้ำและลำดับสี</a></li>
+          <li><a href="page4.html" class="hover:text-yellow-300 transition">รุ้งกินน้ำกับสภาพอากาศ</a></li>
+          <li><a href="page5.html" class="hover:text-yellow-300 transition">เงื่อนไขการมองเห็นรุ้ง</a></li>
+          <li><a href="page6.html" class="hover:text-yellow-300 transition">แบบทดสอบ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hero Section -->
+      <header class="flex flex-col items-center justify-center text-center h-[80vh] px-6">
+        <h2 class="text-5xl md:text-6xl font-bold text-white drop-shadow-lg">
+          รุ้ง <span class="text-yellow-300">กินน้ำ</span>
+        </h2>
+       
+        <a href="page1.html" class="mt-8 inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-full shadow-md transition">
+          เริ่มเรียนรู้ 🌈
+        </a>
+      </header>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+      <title>รุ้งกินน้ำ</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="relative min-h-screen font-sans text-gray-800">
+    
+    <!-- พื้นหลังพร้อม Overlay -->
+    <div class="absolute inset-0">
+      <img src="images (2).jpg" alt="background rainbow" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-black/30"></div> <!-- overlay -->
+    </div>
+
+    <!-- เนื้อหา -->
+    <div class="relative z-10">
+      
+    <div class="relative z-10">
+      <!-- Navigation Bar -->
+      <nav class="bg-gradient-to-r from-red-400 via-yellow-400 via-green-400 via-blue-400 via-indigo-500 to-purple-500 text-white px-8 py-4 flex justify-between items-center shadow-xl rounded-b-2xl">
+        <h1 class="text-3xl font-extrabold tracking-wide text-yellow-200">
+  🌈 รุ้งกินน้ำ
+</h1>
+
+        <ul class="flex gap-6 text-lg font-semibold">
+        <ul class="flex gap-6 text-lg font-semibold">
+          <li><a href="index.html" class="relative group flex items-center gap-1 hover:text-yellow-300 transition">
+            🏠 หน้าแรก
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all group-hover:w-full"></span>
+          </a></li>
+          <li><a href="page1.html" class="relative group flex items-center gap-1 hover:text-yellow-300 transition">
+            🌦️ การเกิดรุ้งกินน้ำ
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all group-hover:w-full"></span>
+          </a></li>
+          <li><a href="page2.html" class="relative group flex items-center gap-1 hover:text-yellow-300 transition">
+            🌈 ประเภทของรุ้งกินน้ำ
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all group-hover:w-full"></span>
+          </a></li>
+          <li><a href="page3.html" class="relative group flex items-center gap-1 hover:text-yellow-300 transition">
+            🎨 สีของรุ้งกินน้ำ
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all group-hover:w-full"></span>
+          </a></li>
+          <li><a href="page4.html" class="relative group flex items-center gap-1 hover:text-yellow-300 transition">
+            ☁️ สภาพอากาศ
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all group-hover:w-full"></span>
+          </a></li>
+          <li><a href="page5.html" class="relative group flex items-center gap-1 hover:text-yellow-300 transition">
+            👀 การมองเห็นรุ้ง
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all group-hover:w-full"></span>
+          </a></li>
+          <li><a href="page6.html" class="relative group flex items-center gap-1 hover:text-yellow-300 transition">
+            📝 แบบทดสอบ
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all group-hover:w-full"></span>
+          </a></li>
+        </ul>
+      </nav>
+
+      <!-- Hero Section -->
+      <header class="flex flex-col items-center justify-center text-center h-[80vh] px-6">
+        <h2 class="text-5xl md:text-6xl font-bold text-white drop-shadow-lg">
+          รุ้ง <span class="text-yellow-300">กินน้ำ</span>
+        </h2>
+       
+        <a href="page1.html" class="mt-8 inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-full shadow-md transition">
+          เริ่มเรียนรู้ 🌈
+        </a>
+      </header>
+    </div>
+  </body>
+</html>

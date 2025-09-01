@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <title>รุ้งกินน้ำ</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="relative min-h-screen font-sans text-gray-800">
+    
+    <!-- พื้นหลังพร้อม Overlay -->
+    <div class="absolute inset-0">
+      <img src="images (2).jpg" alt="background rainbow" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-black/30"></div> <!-- overlay -->
+    </div>
+
+    <!-- เนื้อหา -->
+    <div class="relative z-10">
+      
+      <!-- Navbar สดใส -->
+       <nav class="bg-gradient-to-r from-red-400 via-yellow-400 via-green-400 via-blue-400 via-indigo-500 to-purple-500 text-white px-8 py-4 flex justify-between items-center shadow-xl rounded-b-2xl">
+        <h1 class="text-3xl font-extrabold tracking-wide text-yellow-200">
+          🌈 รุ้งกินน้ำ
+        </h1>
+        <ul class="flex gap-6 text-lg font-semibold">
+          <li><a href="index.html" class="relative group flex items-center gap-1 hover:text-yellow-300 transition">
+            🏠 หน้าแรก
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all group-hover:w-full"></span>
+          </a></li>
+          <li><a href="page1.html" class="relative group flex items-center gap-1 hover:text-yellow-300 transition">
+            🌦️ การเกิดรุ้งกินน้ำ
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all group-hover:w-full"></span>
+          </a></li>
+          <li><a href="page2.html" class="relative group flex items-center gap-1 hover:text-yellow-300 transition">
+            🌈 ประเภทของรุ้งกินน้ำ
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all group-hover:w-full"></span>
+          </a></li>
+          <li><a href="page3.html" class="relative group flex items-center gap-1 hover:text-yellow-300 transition">
+            🎨 สีของรุ้งกินน้ำ
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all group-hover:w-full"></span>
+          </a></li>
+          <li><a href="page4.html" class="relative group flex items-center gap-1 hover:text-yellow-300 transition">
+            ☁️ สภาพอากาศ
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all group-hover:w-full"></span>
+          </a></li>
+          <li><a href="page5.html" class="relative group flex items-center gap-1 hover:text-yellow-300 transition">
+            👀 การมองเห็นรุ้ง
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all group-hover:w-full"></span>
+          </a></li>
+          <li><a href="page6.html" class="relative group flex items-center gap-1 hover:text-yellow-300 transition">
+            📝 แบบทดสอบ
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-300 transition-all group-hover:w-full"></span>
+          </a></li>
+        </ul>
+      </nav>
+
+
+<section class="px-6 py-12 flex justify-center">
+  <div class="w-full max-w-4xl space-y-12">
+
+    <h2 class="text-3xl font-bold mb-8 text-center text-yellow-300">แบบทดสอบเรื่องรุ้งกินน้ำ</h2>
+    
+    <form id="quizform" class="space-y-12">
+
+      <!-- หัวข้อ 1: ประเภทของรุ้ง -->
+      <div class="bg-red-100/50 backdrop-blur-md p-6 rounded-xl shadow-lg space-y-4 border-l-8 border-red-400">
+        <h3 class="text-2xl font-semibold text-red-600 mb-4 text-center">หัวข้อ 1: ประเภทของรุ้ง</h3>
+        <div>
+          <p class="font-semibold text-center">1. รุ้งประเภทใดที่มีเพียงเส้นเดียว?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q1" value="a"> รุ้งหลัก</label>
+            <label><input type="radio" name="q1" value="b"> รุ้งคู่</label>
+            <label><input type="radio" name="q1" value="c"> รุ้งสามชั้น</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">2. รุ้งคู่เกิดจากอะไร?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q2" value="a"> การสะท้อนแสงในหยดน้ำซ้ำสองครั้ง</label>
+            <label><input type="radio" name="q2" value="b"> การผสมสีของดวงอาทิตย์</label>
+            <label><input type="radio" name="q2" value="c"> การเกิดฝนติดต่อกัน</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">3. รุ้งสามชั้นมีลักษณะอย่างไร?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q3" value="a"> มีสามวงซ้อนกัน</label>
+            <label><input type="radio" name="q3" value="b"> มีเพียงวงเดียว</label>
+            <label><input type="radio" name="q3" value="c"> เกิดจากหมอก</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">4. รุ้งทุติยภูมิเรียกว่าอะไร?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q4" value="a"> รุ้งหลัก</label>
+            <label><input type="radio" name="q4" value="b"> รุ้งรอง</label>
+            <label><input type="radio" name="q4" value="c"> รุ้งไฟ</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">5. รุ้งใดเกิดขึ้นได้เมื่อมีแสงและหยดน้ำ?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q5" value="a"> รุ้งหลัก</label>
+            <label><input type="radio" name="q5" value="b"> รุ้งสีแดง</label>
+            <label><input type="radio" name="q5" value="c"> รุ้งดำ</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- หัวข้อ 2: สีของรุ้ง -->
+      <div class="bg-yellow-100/50 backdrop-blur-md p-6 rounded-xl shadow-lg space-y-4 border-l-8 border-yellow-400">
+        <h3 class="text-2xl font-semibold text-yellow-600 mb-4 text-center">หัวข้อ 2: สีของรุ้ง</h3>
+        <div>
+          <p class="font-semibold text-center">6. สีใดอยู่ด้านนอกของรุ้ง?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q6" value="a"> แดง</label>
+            <label><input type="radio" name="q6" value="b"> น้ำเงิน</label>
+            <label><input type="radio" name="q6" value="c"> เขียว</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">7. สีใดอยู่ด้านในสุดของรุ้ง?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q7" value="a"> ม่วง</label>
+            <label><input type="radio" name="q7" value="b"> แดง</label>
+            <label><input type="radio" name="q7" value="c"> เหลือง</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">8. จำนวนสีของรุ้งมาตรฐานมีกี่สี?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q8" value="a"> 7</label>
+            <label><input type="radio" name="q8" value="b"> 5</label>
+            <label><input type="radio" name="q8" value="c"> 6</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">9. สีใดเป็นสีตรงกลางของรุ้ง?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q9" value="a"> เขียว</label>
+            <label><input type="radio" name="q9" value="b"> แดง</label>
+            <label><input type="radio" name="q9" value="c"> น้ำเงิน</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">10. สีใดเป็นสีรองสุดท้ายจากด้านนอก?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q10" value="a"> น้ำเงิน</label>
+            <label><input type="radio" name="q10" value="b"> แดง</label>
+            <label><input type="radio" name="q10" value="c"> เหลือง</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- หัวข้อ 3: สภาพอากาศ -->
+      <div class="bg-blue-100/50 backdrop-blur-md p-6 rounded-xl shadow-lg space-y-4 border-l-8 border-blue-400">
+        <h3 class="text-2xl font-semibold text-blue-600 mb-4 text-center">หัวข้อ 3: สภาพอากาศ</h3>
+        <div>
+          <p class="font-semibold text-center">11. รุ้งเกิดขึ้นเมื่อสภาพอากาศเป็นอย่างไร?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q11" value="a"> มีฝนและแดดพร้อมกัน</label>
+            <label><input type="radio" name="q11" value="b"> ฝนตกอย่างเดียว</label>
+            <label><input type="radio" name="q11" value="c"> ฟ้าโปร่ง</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">12. ฝนตกหนักช่วยให้เกิดรุ้งได้หรือไม่?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q12" value="a"> ไม่</label>
+            <label><input type="radio" name="q12" value="b"> ใช่</label>
+            <label><input type="radio" name="q12" value="c"> บางครั้ง</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">13. เวลาใดเหมาะที่สุดสำหรับการเห็นรุ้ง?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q13" value="a"> เช้า-เย็น</label>
+            <label><input type="radio" name="q13" value="b"> กลางวัน</label>
+            <label><input type="radio" name="q13" value="c"> กลางคืน</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">14. รุ้งเกิดขึ้นได้จากอะไร?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q14" value="a"> แสงอาทิตย์และหยดน้ำ</label>
+            <label><input type="radio" name="q14" value="b"> ลมแรง</label>
+            <label><input type="radio" name="q14" value="c"> เมฆหนา</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">15. เมฆชนิดใดมักพบรุ้งบ่อยที่สุด?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q15" value="a"> เมฆฝนก้อน</label>
+            <label><input type="radio" name="q15" value="b"> เมฆบาง</label>
+            <label><input type="radio" name="q15" value="c"> เมฆพายุ</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- หัวข้อ 4: การมองเห็นรุ้ง -->
+      <div class="bg-green-100/50 backdrop-blur-md p-6 rounded-xl shadow-lg space-y-4 border-l-8 border-green-400">
+        <h3 class="text-2xl font-semibold text-green-600 mb-4 text-center">หัวข้อ 4: การมองเห็นรุ้ง</h3>
+        <div>
+          <p class="font-semibold text-center">16. สายตาต้องหันไปทางใดเพื่อเห็นรุ้ง?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q16" value="a"> ทิศตรงข้ามดวงอาทิตย์</label>
+            <label><input type="radio" name="q16" value="b"> ทิศเดียวกับดวงอาทิตย์</label>
+            <label><input type="radio" name="q16" value="c"> ทิศเหนือ</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">17. ระยะห่างระหว่างผู้สังเกตรุ้งกับฝนสำคัญหรือไม่?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q17" value="a"> ใช่</label>
+            <label><input type="radio" name="q17" value="b"> ไม่</label>
+            <label><input type="radio" name="q17" value="c"> บางครั้ง</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">18. หากมีเมฆหนา จะมองเห็นรุ้งได้หรือไม่?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q18" value="a"> ไม่</label>
+            <label><input type="radio" name="q18" value="b"> ใช่</label>
+            <label><input type="radio" name="q18" value="c"> ขึ้นอยู่กับความหนา</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">19. ดวงตาของคนทุกคนมองรุ้งได้เหมือนกันหรือไม่?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q19" value="a"> ไม่</label>
+            <label><input type="radio" name="q19" value="b"> ใช่</label>
+            <label><input type="radio" name="q19" value="c"> ขึ้นอยู่กับสายตา</label>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-center">20. แสงต้องมีคุณสมบัติใดเพื่อเห็นรุ้ง?</p>
+          <div class="flex flex-col items-center gap-2">
+            <label><input type="radio" name="q20" value="a"> ขาวสว่าง</label>
+            <label><input type="radio" name="q20" value="b"> แดงเข้ม</label>
+            <label><input type="radio" name="q20" value="c"> เข้มเหลือง</label>
+          </div>
+        </div>
+      </div>
+<!-- ปุ่มตรวจคำตอบ -->
+<div class="text-center">
+  <button type="button" onclick="checkAnswers()" 
+          class="bg-blue-900 text-white px-6 py-2 rounded-lg shadow hover:bg-blue-700 transition">
+    ตรวจคำตอบ
+  </button>
+</div>
+
+<!-- แสดงผลคะแนน -->
+<div id="result" class="mt-6 text-xl font-bold text-center text-green-700"></div>
+
+</form>
+</div>
+</section>
+
+<script>
+function checkAnswers() {
+  const answers = {
+    q1: "a", q2: "a", q3: "a", q4: "b", q5: "a",      // ประเภทของรุ้ง
+    q6: "a", q7: "a", q8: "a", q9: "a", q10: "a",     // สีของรุ้ง
+    q11: "a", q12: "a", q13: "a", q14: "a", q15: "a", // สภาพอากาศ
+    q16: "a", q17: "a", q18: "a", q19: "a", q20: "a"  // การมองเห็นรุ้ง
+  };
+
+  let score = 0;
+  for (let q in answers) {
+    const selected = document.querySelector(`input[name="${q}"]:checked`);
+    if (selected && selected.value === answers[q]) {
+      score++;
+    }
+  }
+
+  document.getElementById("result").innerText = `คุณได้คะแนน ${score}/20`;
+}
+</script>
+
+      <!-- ปุ่มตรวจคำตอบ -->
+      <div class="text-center">
+        <button
